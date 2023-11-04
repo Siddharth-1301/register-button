@@ -40,7 +40,7 @@ p{
     font-size: 30px;
 }
 .button2{
-    left: 46%;
+    left: 42%;
     position: absolute;
     height: 37px;
     width: 91px;
@@ -49,10 +49,10 @@ p{
     background-repeat: no-repeat;
     top: 71%;
     border-radius: 14px;
-
+cursor: pointer;
 }
 .button3{
-    left: 54%;
+    left: 52%;
     position: absolute;
     height: 37px;
     width: 112px;
@@ -62,10 +62,14 @@ p{
     top: 71%;
     border-radius: 28px;
     border-radius: 11px;
+cursor: pointer;
 }
 @media screen and (max-width: 768px) {
-    .button2, .button3 {
-        height: 15%; /* Adjust the percentage for smaller screens */
-        width: 35%; /* Adjust the percentage for smaller screens */
+    .button2 {
+        left: 30%; /* Adjusted left position for smaller screens */
+    }
+
+    .button3 {
+        left: 70%; /* Adjusted left position for smaller screens */
     }
 }
