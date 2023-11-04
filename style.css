@@ -40,30 +40,52 @@ p{
     font-size: 30px;
 }
 .button2{
-    left: 46%;
+    left: 42%;
     position: absolute;
     height: 37px;
     width: 91px;
-    background: url(download.jpg);
+    background: url(download-removebg-preview.png);
     background-size: 95px;
     background-repeat: no-repeat;
+    background-color: white;
+
     top: 71%;
     border-radius: 14px;
 cursor: pointer;
 }
 .button3{
-    left: 50%;
+    left: 52%;
     position: absolute;
     height: 37px;
     width: 112px;
-    background: url(devfolio.jpg);
+    background: url(Dev.png);
     background-size: 115px;
     background-repeat: no-repeat;
+    background-color: white;
     top: 71%;
     border-radius: 28px;
     border-radius: 11px;
 cursor: pointer;
 }
+.button2:hover{
+    background-color: red; /* Change the background color when hovered */
+    color: rgb(152, 145, 145);    
+}
+.button2:hover {
+    background-color: orange; /* Change the background color on hover */
+    color: white; /* Adjust the text color for better visibility */
+    box-shadow: 0 0 5px rgb(47, 0, 255), 0 0 15px cyan, 0 0 30px rgb(9, 57, 57), 0 0 50px rgb(0, 119, 255), 0 0 100px rgb(0, 8, 255); /* Optional - apply the box shadow effect if needed */
+}
+.button3:hover{
+    background-color: red; /* Change the background color when hovered */
+    color: rgb(152, 145, 145);    
+}
+.button3:hover {
+    background-color: orange; /* Change the background color on hover */
+    color: white; /* Adjust the text color for better visibility */
+    box-shadow: 0 0 5px rgb(47, 0, 255), 0 0 15px cyan, 0 0 30px rgb(9, 57, 57), 0 0 50px rgb(0, 119, 255), 0 0 100px rgb(0, 8, 255); /* Optional - apply the box shadow effect if needed */
+}
+
 @media screen and (max-width: 768px) {
     .button2 {
         left: 30%; /* Adjusted left position for smaller screens */
